@@ -135,3 +135,7 @@ h4 {
     color: white;
     font-weight: bold;
 }
+
+.search-icon {
+    float:left;
+}
