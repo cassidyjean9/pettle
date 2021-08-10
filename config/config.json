@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "cassidyfuller",
+    "password": "laptop63",
+    "database": "pettle",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "cassidyfuller",
+    "password": "laptop63",
+    "database": "pettle",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+
+    "production": {
+        "username": "u7hvascxiuzarbk5",
+        "password": "wlb7i0x2ztmtsu6n",
+        "database": "qvp54lr6p1v58wca",
+        "host": "m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "dialect": "mysql",
+        "operatorsAliases": false
+      }
+    }
+
