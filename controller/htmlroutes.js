@@ -99,7 +99,7 @@ htmlRoutes = function (app) {
 
     app.get("/results-pets/:id", function(req,res){
 
-        console.log("working")
+        console.log("working");
 
         console.log(req.param.id);
         db.Humans.findOne({
@@ -126,7 +126,7 @@ htmlRoutes = function (app) {
 
     app.get("/results-humans/:id", function(req,res){
 
-        console.log("working")
+        console.log("working");
 
         console.log(req.params.id);
 
