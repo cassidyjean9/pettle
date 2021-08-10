@@ -1,7 +1,7 @@
 {
   "name": "group-project-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pettle Overview:",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +18,14 @@
     "nodemon": "^1.19.4",
     "path": "^0.12.7",
     "sequelize": "^5.22.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassidyjean9/pettle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cassidyjean9/pettle/issues"
+  },
+  "homepage": "https://github.com/cassidyjean9/pettle#readme"
 }
