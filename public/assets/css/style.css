@@ -37,20 +37,19 @@ p {
 
 .nav {
     background-color:#5868e0;
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans';
 
     padding: 0px;
     margin:0px;
     border: 0px;
-   height: 60px;
+   height: 80px;
    width: 100%;
 }
 
 .nav-link{
     color: #ededed;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: lighter;
-    text-transform: uppercase;
     
 }
 
@@ -63,6 +62,7 @@ li {
 
 .nav-link:hover{
     color: white;
+    font-weight: bold;
 
 }
 
@@ -118,13 +118,14 @@ h1 {
 }
 
 .block-2 {
-    height: 60vh;
+    height: 30vh;
     background-color:whitesmoke;
     color: #172591;
     text-align: center;
     padding: 5vh;
     margin: 5vh;
-    border-top: 1px solid grey;
+    border-top: 3px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
 }
 
 h4 {
