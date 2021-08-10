@@ -141,3 +141,9 @@ h4 {
     margin-right: 10px;
     opacity: 0.7;
 }
+
+.phone-number {
+    float: left;
+    color: darkgrey;
+    text-align: left;
+}
