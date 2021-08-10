@@ -29,7 +29,6 @@ body {
 #heart {
     opacity: 0
 }
-)
 
 p {
     margin: 0px;
@@ -48,7 +47,7 @@ p {
 
 .nav-link{
     color: #ededed;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: lighter;
     text-transform: uppercase;
     
