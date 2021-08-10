@@ -122,8 +122,9 @@ h1 {
     background-color:whitesmoke;
     color: #172591;
     text-align: center;
-    padding: 10vh;
-    border-top: 2px solid darkgrey;
+    padding: 5vh;
+    margin: 5vh;
+    border-top: 1px solid grey;
 }
 
 h4 {
