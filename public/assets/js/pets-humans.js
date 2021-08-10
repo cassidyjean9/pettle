@@ -17,6 +17,7 @@ $(".human-form").on("submit", function (event) {
         data: newHome
     }).then(
         function (resp) {
+            console.log(resp);
             console.log("created new human");
             window.location.href = "/results-pets/" + resp.id
 
@@ -47,6 +48,7 @@ if ($("#question9-pet").val()) {
         data: newPet
     }).then(
         function (resp) {
+            console.log(resp);
             console.log("created new pet");
             window.location.href = "/results-humans/" + resp.id
         }
