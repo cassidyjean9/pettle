@@ -47,7 +47,7 @@ p {
 
 .nav-link{
     color: #ededed;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
     text-transform: uppercase;
     
@@ -62,7 +62,7 @@ li {
 
 .nav-link:hover{
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 
