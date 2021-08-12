@@ -16,11 +16,12 @@
     "operatorsAliases": false
   },
 
+
     "production": {
-        "username": "u7hvascxiuzarbk5",
-        "password": "wlb7i0x2ztmtsu6n",
-        "database": "qvp54lr6p1v58wca",
-        "host": "m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "username": "b5b18d92f0e760",
+        "password": "9b3f4284",
+        "database": "heroku_ae3146ce82ab5dc",
+        "host": "us-cdbr-east-04.cleardb.com",
         "dialect": "mysql",
         "operatorsAliases": false
       }

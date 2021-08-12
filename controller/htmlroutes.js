@@ -63,6 +63,7 @@ htmlRoutes = function (app) {
 
     app.get("/view-humans", function (req, res) {
         db.Humans.findAll({}).then(function(dbHumans) {
+            console.log(res);
             res.render("partials/view-humans", {
               humans: dbHumans
             });
@@ -71,6 +72,7 @@ htmlRoutes = function (app) {
     
     app.get("/view-pets", function (req, res) {
         db.Pets.findAll({}).then(function(dbPets) {
+            console.log(res);
             res.render("partials/view-pets", {
               pets: dbPets
             });
