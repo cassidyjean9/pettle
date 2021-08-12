@@ -14,7 +14,7 @@ body {
     font-size: 15px;
 }
 .head {
-    background-color:#172591;
+    background-color:#5868e0;
     font-family: 'Bowlby One SC', Helvetica, sans-serif;
     letter-spacing: 5px;
     font-size: 80px;
@@ -35,7 +35,8 @@ p {
 }
 
 .nav {
-    background-color:#5868e0;
+    #172591
+    background-color:#172591;
     font-family: 'PT Sans Narrow';
 
     padding: 0px;
