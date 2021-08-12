@@ -1,3 +1,8 @@
+Updated heroku page: https://pettlepetfinder.herokuapp.com/.
+
+Everything below was the original ReadMe for the group project, which was a collaborative effort. Everything above is new and was worked on soley by Cassidy.
+
+
 # Pettle App
 
 Pettle Overview:
