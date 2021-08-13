@@ -26,7 +26,7 @@ module.exports = function (sequelize, DataTypes) {
       allowNull: true
     },
     pet_size: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: true,
     },
     hypo: {

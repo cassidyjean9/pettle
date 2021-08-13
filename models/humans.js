@@ -9,7 +9,7 @@ module.exports = function (sequelize, DataTypes) {
             allowNull: false
         },
         pet_size: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false,
         },
         hypo: {
