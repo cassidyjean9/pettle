@@ -143,15 +143,28 @@ h4 {
 
 .block-3 {
     background-color: white;
-    height: 60vh;
+    height: 100vh;
 }
 
-.footer{
-    height: 15px;
-    background-color:#5868e0;
-    color: white;
-    font-weight: bold;
+.footer {
+    height: 10vh;
+    background-color:#5868e0 ;
 }
+
+.footer-text {
+    color: white;
+    float: left;
+    padding: 10px;
+    font-weight:lighter;
+}
+.available-pets {
+    margin-top: 20vh;
+    text-align:center;
+    font-size: 35px;
+   font-style: oblique;
+}
+
+
 
 .icons {
     float:right;

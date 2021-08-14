@@ -58,7 +58,17 @@ htmlRoutes = function (app) {
     
     //wildcard for redirecting everything back to the home page
     app.get("/", function (req, res) {
-        res.render("partials/index");
+        db.Pets.findAll({
+            where:{
+                pet_age: 3
+            }
+        }).then(function(dbPets) {
+            console.log(res);
+            res.render("partials/index", {
+              threepets: dbPets
+            });
+          });
+;
     });
 
     app.get("/view-humans", function (req, res) {
